@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    * {
+
+        margin: 0;
+        padding: 0;
+    }
+
+    .container {
+
+        width: 100%;
+        height: 100vh;
+    }
+
+    .star {
+
+        width: 80px;
+        height: 80px;
+        background-color: gray;
+        position: relative;
+        left: 750px;
+        top: 10px;
+        animation: star 15s 2s infinite;
+
+    }
+
+    @keyframes star {
+
+        0% {
+            left: 750px;
+            top: 10px;
+        width: 80px;
+        background-color: gray;
+
+
+        }
+
+        20% {
+            left: 1100px;
+            top: 650px;
+        width: 80px;
+        background-color: gray;
+
+
+        }
+
+        40% {
+            left: 350px;
+            top: 170px;
+            width: 80px;
+            background-color: gray;
+            
+        }
+        
+        60% {
+            left: 1100px;
+            top: 170px;
+            background-color: red;
+            width: 80px;
+            
+        }
+        
+        80% {
+            left: 350px;
+            top: 650px;
+            width: 40px;
+            background-color: blue;
+
+        }
+
+        100% {
+            left: 750px;
+            top: 10px;
+        width: 80px;
+        background-color: gray;
+
+
+        }
+
+    }
+</style>
+
+<body>
+
+    <div class="container">
+
+        <div class="star"></div>
+    </div>
+
+</body>
+
+</html>
