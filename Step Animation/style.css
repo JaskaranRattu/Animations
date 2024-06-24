@@ -24,12 +24,12 @@
 
 .char {
 
-    width: 185px;
-    height: 300px;
-    border: 2px solid red;
+    width: 170px;
+    height: 330px;
+    /* border: 2px solid red; */
     position: absolute;
     top: 300px;
-    left: 100px;
+    left: 40px;
     animation: char 5s infinite linear;
     overflow: hidden;
 }
@@ -49,10 +49,10 @@
 
 .alien{
 
-    width: 550%;
+    width: 1460px;
     height: 100%;
-    border: 1px solid black;
-    animation: alien 5s steps(6,end) infinite forwards;
+    /* border: 1px solid black; */
+    animation: alien 5s steps(8, end) infinite forwards;
     position: absolute;
 
 }
@@ -66,7 +66,7 @@
 
     to{
 
-        left: -1200px;
+        left: -1460px;
     }
 }
 
